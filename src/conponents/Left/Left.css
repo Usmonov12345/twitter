@@ -1,0 +1,97 @@
+
+.Left{
+    width: 21%;
+    position: fixed;
+    left: 10px;
+    border-right: 1px solid #1d9cf0;
+    height: 100vh;
+
+    padding: 10px;
+    background-color: white;
+  }
+  .Left-item{
+    font-size: 20px;
+    color: #000;
+   
+  }
+  
+  .Left-item-link{
+    color: #000;
+    display: block;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+    
+  }
+  
+  .Left-item-link:hover{
+    border: 1px solid #000;
+  }
+  .Left_item_More{
+    padding: 0 2px ;
+    border: 1px solid #000;
+    border-radius: 10pc;
+  }
+  
+  .Left-item_btn{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10pc;
+    background-color: #1D9BF0;
+    color: white;;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    
+  }
+  .Left-item__logo{
+    font-size: 43px;
+    padding: 16px ;
+    color: #1D9BF0;
+  }
+  .active{
+    background-color: #1d9cf0;
+    color: white ;
+  }
+
+  .cardf_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cardf{
+    margin-top: 30%;
+  }
+  
+  .cardf_box_img{
+    width: 60px;
+    border-radius: 10pc;
+  }
+  .cardf_box_title{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000000;
+  }
+  
+  .cardf_box_text{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+  }

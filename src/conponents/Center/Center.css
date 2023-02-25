@@ -1,0 +1,63 @@
+.center{
+    width: 58%;
+    margin: 0 auto;
+}
+
+.center__title{
+    padding: 10px;
+}
+.center__list1{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.center__item1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.center__item1_img{
+    width: 80px;
+    border-radius: 10pc;
+}
+
+.center__item1__title{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #828282;
+
+}
+
+.center__list2{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center__item2__box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.center__item2__box_photos{
+    margin-left: 100px;
+    color: #1D9BF0;
+    font-size: 22px;
+}
+
+.center__item2__btn{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10pc;
+    border: 1px solid #1D9BF0;
+    background-color: #1D9BF0;
+    color: white;;
+}

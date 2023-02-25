@@ -1,0 +1,120 @@
+.right{
+    width: 21%;
+    position: fixed;
+    right: 10px;
+    border-left: 1px solid #1d9cf0;
+    height: 100vh;
+    background-color: white;
+    padding-top: 12px;
+  }
+  
+  
+  .right_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.right_item_card1_title1{
+    padding: 4px 0;
+}
+.right_boxd{
+ 
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 6px;
+  background: #F7F9F9;
+border-radius: 10px;
+}
+
+.right_item_card1__text{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #393B41;
+  opacity: 0.6;
+}
+
+.right_item_card1_title{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.right_inCard{
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 6px;
+  background: #F7F9F9;
+  border-radius: 31px;
+
+  
+}
+.right_inCard_lupa{
+  position: absolute;
+  top: 43px;
+  left: 22px;
+  font-size: 20px;
+}
+
+.right_inCard_input{
+  padding: 10px 5px 10px 30px ;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  
+}
+.right_bottom_card_boz{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.right_bottom{
+  width: 90%;
+  margin: 0 auto; 
+  background-color: #F7F9F9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 6px;
+  background: #F7F9F9;
+  padding: 10px;
+}
+
+.right_bottom_card_boz_btn{
+  padding: 4px 10px;
+  border-radius: 10pc;
+  border: 1px solid #000;
+  background-color: #000;
+  color:white;
+}
+.right_bottom_card_boz_btn:hover{
+  background-color: #0000008e;
+  border: 1px solid #0000008e;
+  
+}
+
+.right_bottom_card_boz_btn:active{
+  transform: scale(0.9);
+}
+.right_bottom_card_text{
+  margin-top: 10%;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #1DA1F2;
+}
