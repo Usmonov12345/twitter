@@ -12,7 +12,7 @@ function App() {
            <Left/>
             <Routes>
               <Route path='Profil' element={<Profil/>}/>
-              <Route path='/Center' element={<Center/>}/>
+              <Route path='/' element={<Center/>}/>
             </Routes>
            <Right/>
         </div>

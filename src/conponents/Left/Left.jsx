@@ -7,13 +7,13 @@ function Left() {
     <div className='Left'>
         <ul className="Left_list">
             <li className='Left-item'>
-                <Link to='/Center'>
+                <Link to='/'>
                     <i class="fa-brands fa-twitter Left-item__logo"></i>
                  </Link>
             </li>
             <li className='Left-item'>
 
-                <NavLink to='/Center' className='Left-item-link'>
+                <NavLink to='/' className='Left-item-link'>
                 <i class="fa fa-house Left-item_Home"></i>    Home
                  </NavLink>
             </li>
