@@ -43,7 +43,7 @@ function Left() {
                  </NavLink>
             </li>
             <li className='Left-item'>
-                <NavLink to='Profil' className='Left-item-link'>
+                <NavLink to='/Profil' className='Left-item-link'>
                 <i class="fa fa-user Left_item_Profile"></i> Profile
                  </NavLink>
             </li>

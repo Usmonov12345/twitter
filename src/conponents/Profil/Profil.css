@@ -1,4 +1,167 @@
 .profil{
-    width: 54%;
+    width: 58%;
     margin: 0 auto;
+ 
+}
+.profil__title{
+    padding: 10px 15px;
+}
+
+.profil__text{
+    padding: 5px 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+.profil__list1{
+       background-image: url('../img/bacor.svg');
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding: 120px 0;
+       height: 15vh;
+       display: flex;
+       justify-content: space-between;
+}
+
+.profil__item1__img{
+    width: 120px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 10pc;
+    border: 5px  solid #fff;
+  
+}
+.profil__item1__btn{
+    display: block;
+    padding: 7px 20px;
+    font-size: 20px;
+    margin-top: 140px;
+    margin-right: 30px;
+    border-radius: 10pc;
+    border: 1px solid #1D9BF0;
+    background-color: #1D9BF0;
+    color: white;
+}
+
+.profil__item1__btn:hover{
+    background-color: #1D9BF0;
+    opacity: 0.8;
+}
+.profil__item1__btn:active{
+    transform: scale(0.97);
+}
+
+.profil__list2{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.profil__item2__title1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.profil__item2__text1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    padding: 6px 0;
+}
+
+.profil__item2__title2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.profil__item2__title2__span{
+    color: #1DA1F2;
+}
+
+.profil__item3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.profil__item3__text4{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+.profil__item3__text4:hover{
+    color: #1D9BF0;
+}
+
+.profil__item3__text4-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.profil__item3__text4-1:hover{
+    color: #1D9BF0;
+}
+.profil__item4{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profil__item4__sapn{
+    padding: 5px 7px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+    
+}
+.profil__item4__sapn:hover{
+    border: 1px solid #1D9BF0;
+    border-radius: 10pc;
+    cursor: pointer;
+
+}
+
+.profil__item4__sapn:active{
+    background-color: #1D9BF0;
+    cursor: pointer;
+
+}
+
+.profil__item5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
+
+.profil__item5__title{
+    border-bottom: 2px solid transparent;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.profil__item5__title:hover{
+color: #1D9BF0;
+    border-bottom: 2px solid #1D9BF0;
 }
