@@ -7,7 +7,7 @@ function Left() {
     <div className='Left'>
         <ul className="Left_list">
             <li className='Left-item'>
-                <Link to='/'>
+                <Link to='/Center'>
                     <i class="fa-brands fa-twitter Left-item__logo"></i>
                  </Link>
             </li>
