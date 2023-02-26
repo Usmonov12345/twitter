@@ -21,7 +21,8 @@ function Center() {
           <ul className="center__list1">
             <li className='center__item1'>
               <img src={col} alt="rasm"  className="center__item1_img" />
-              <h2 className='center__item1__title' >What’s happening</h2>
+              {/* <h2 className='center__item1__title' >What’s happening</h2> */}
+              <input type="text" name="" id="" placeholder='What’s happening' className='center__item1__input' />
             </li>
           </ul>
           <ul className="center__list2">
@@ -91,13 +92,13 @@ function Center() {
               <img src={Ellip} alt="" className='center_item__img3'/>
               <div className="cqrfdd">
               <h2 className="center_item3__title">
-                 Designsta
+              cloutexhibition
                  <span className='center_item3__title_span'>
-                 @inner · 25m
+                 @RajLahoti · 22m
                  </span>
               </h2>
               <p className="center_item3__text">
-              Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?
+              YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.
               </p>
               </div>
             </li>

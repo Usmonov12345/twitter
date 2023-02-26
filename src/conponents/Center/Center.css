@@ -176,3 +176,48 @@
 .center_itemy_image{
     width: 100%;
 }
+
+.center__item1__input{
+
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    font-size: 23px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    background-color: #1d9cf01d;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.center__item1__input:hover{
+    border:2px solid #1D9BF0;
+    
+}
+
+.center_item3__text3:hover{
+    color: #0CB345;
+    cursor: pointer;
+}
+.center_item3__text3:active{
+    color:red;
+    
+    transform: scale(0.9);
+}
+
+.center__itemy_card__title__span:hover{
+    color: #000000;
+    cursor: pointer;
+}
+.center__itemy_card__title__span:active{
+    transform: scale(0.9);
+}
+.center_item3__title_span:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+.center_item3__title_span:active{
+    transform: scale(0.9);
+    
+}

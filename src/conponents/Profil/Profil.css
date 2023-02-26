@@ -4,7 +4,7 @@
  
 }
 .profil__title{
-    padding: 10px 15px;
+    padding: 10px 15px 0 15px;
 }
 
 .profil__text{
@@ -164,4 +164,26 @@
 .profil__item5__title:hover{
 color: #1D9BF0;
     border-bottom: 2px solid #1D9BF0;
+}
+
+.profil__title{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+
+}
+.profil_poli{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profil_poli1{
+    margin-left: 20px;
+}
+.profil_poli1__icon{
+    font-size: 23px;
+    color: #000000;
 }

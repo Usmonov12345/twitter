@@ -2,12 +2,25 @@ import React from 'react'
 import '../Profil/Profil.css'
 import Lop from '../img/lop1.jpg'
 import bol from '../img/boll.svg'
+import {Link} from 'react-router-dom'
 function Profil() {
 
   return (
     <div className='profil'>
-      <h1 className='profil__title'>Usmonov_0_4</h1>
+    <div className="profil_poli">
+    <div className="profil_poli1">
+      <Link to="/Center">
+    <i class="fa fa-arrow-left profil_poli1__icon "></i>
+      </Link>
+    </div>
+    <div className="profil_poli2">
+    <h1 className='profil__title'>Usmonov_0_4</h1>
       <p className='profil__text'>1,070 Tweets</p>
+    </div>
+    </div>
+ 
+      
+      
       <ul className="profil__list1">
         <li className="profil__item1">
             <img src={Lop} alt="rasm"  className="profil__item1__img" />

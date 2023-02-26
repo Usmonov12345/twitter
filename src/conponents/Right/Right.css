@@ -79,6 +79,7 @@ border-radius: 10px;
 .right_bottom_card_boz{
   display: flex;
   align-items: center;
+
   justify-content: space-between;
   margin-top: 20px;
 }
@@ -117,4 +118,23 @@ border-radius: 10px;
   font-size: 18px;
   line-height: 100%;
   color: #1DA1F2;
+}
+.right_bottom_card_text:hover{
+  cursor: pointer;
+}
+.right_bottom_card_boz_box__text:hover{
+  cursor: pointer;
+}
+.right_bottom_card_boz_box__text:active{
+  transform: scale(0.98);
+}
+.right_bottom_card_boz_box__title{
+  margin-left: 10px;
+}
+.right_item_card2{
+  transition: 0.3s;
+}
+.right_item_card2:hover{
+  cursor: pointer;
+  transform: rotate(180deg);
 }

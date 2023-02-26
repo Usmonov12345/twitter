@@ -56,12 +56,17 @@ function Left() {
         <button className='Left-item_btn'>Tweet</button>
         <div className="cardf">
             <div className="cardf_box">
+                <Link to="Profil">
                 <img src={lop1} alt=""  className="cardf_box_img"/>
+                </Link>
                 <div className="cardf_box_dic">
                 <h2 className='cardf_box_title'>Toxir Usmonov</h2>
-                <p className='cardf_box_text'>usmonov_0_4</p>
+                {/* <p className='cardf_box_text'>usmonov_0_4</p> */}
+                <Link to="Profil" className='cardf_box_text'>
+                usmonov_0_4
+                </Link>
                 </div>
-                <i class="fa fa-ellipsis"></i>
+                <i class="fa fa-ellipsis cardf_box__icons"></i>
             </div>
         </div>
     </div>

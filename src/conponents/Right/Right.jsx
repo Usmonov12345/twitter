@@ -83,7 +83,6 @@ function Right() {
           </div>
         </li>
         
-        
       </ul>
         </div>
         
@@ -105,7 +104,7 @@ function Right() {
           <div className="right_bottom_card_boz">
               <img src={pol2} alt="" />
               <div className="right_bottom_card_boz_box">
-                <h3 className="right_bottom_card_boz_box__title">
+                <h3 className="right_bottom_card_boz_box__title1">
                 Shuhratbek
                 </h3>
                 <p className="right_bottom_card_boz_box__text">
