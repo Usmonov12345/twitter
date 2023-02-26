@@ -12,8 +12,7 @@ function Left() {
                  </Link>
             </li>
             <li className='Left-item'>
-
-                <NavLink to='/' className='Left-item-link'>
+                <NavLink to='/Center' className='Left-item-link'>
                 <i class="fa fa-house Left-item_Home"></i>    Home
                  </NavLink>
             </li>

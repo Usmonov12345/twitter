@@ -3,6 +3,7 @@ import Center from './conponents/Center/Center';
 import Left from './conponents/Left/Left';
 import Right from './conponents/Right/Right';
 import Profil from './conponents/Profil/Profil';
+import Login from './conponents/Login/Login';
 import { Routes,Route } from 'react-router-dom';
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         <div className='borBody'>
            <Left/>
             <Routes>
-              <Route path='Profil' element={<Profil/>}/>
-              <Route path='/' element={<Center/>}/>
+              <Route path='/Profil' element={<Profil/>}/>
+              <Route path='/Center' element={<Center/>}/>
+              <Route path='/' element={<Login/>}/>
             </Routes>
            <Right/>
         </div>
